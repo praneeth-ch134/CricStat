@@ -1,0 +1,142 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  
+  body {
+    @apply bg-gray-50 text-gray-900 font-sans;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold tracking-tight;
+  }
+  
+  h1 {
+    @apply text-3xl md:text-4xl;
+  }
+  
+  h2 {
+    @apply text-2xl md:text-3xl;
+  }
+  
+  h3 {
+    @apply text-xl md:text-2xl;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded-md font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-opacity-50;
+  }
+  
+  .btn-primary {
+    @apply btn bg-primary-600 text-white hover:bg-primary-700 focus:ring-primary-500;
+  }
+  
+  .btn-secondary {
+    @apply btn bg-gray-200 text-gray-800 hover:bg-gray-300 focus:ring-gray-400;
+  }
+  
+  .btn-danger {
+    @apply btn bg-red-600 text-white hover:bg-red-700 focus:ring-red-500;
+  }
+  
+  .btn-success {
+    @apply btn bg-green-600 text-white hover:bg-green-700 focus:ring-green-500;
+  }
+  
+  .input {
+    @apply w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500;
+  }
+  
+  .label {
+    @apply block text-sm font-medium text-gray-700 mb-1;
+  }
+  
+  .card {
+    @apply bg-white rounded-lg shadow-md overflow-hidden;
+  }
+  
+  .scoreboard {
+    @apply bg-cricket-scoreboard text-white rounded-lg shadow-lg p-4 md:p-6;
+  }
+  
+  .run-indicator {
+    @apply w-8 h-8 flex items-center justify-center rounded-full text-white font-bold text-sm;
+  }
+  
+  .run-0 {
+    @apply bg-gray-600;
+  }
+  
+  .run-1, .run-2, .run-3 {
+    @apply bg-blue-600;
+  }
+  
+  .run-4 {
+    @apply bg-green-600;
+  }
+  
+  .run-6 {
+    @apply bg-purple-600;
+  }
+  
+  .wicket {
+    @apply bg-cricket-wicket;
+  }
+  
+  .extra {
+    @apply bg-yellow-600;
+  }
+  
+  .over-ball {
+    @apply w-6 h-6 rounded-full flex items-center justify-center text-xs font-medium mx-0.5;
+  }
+  
+  .over-dot {
+    @apply bg-gray-700 text-white;
+  }
+  
+  .over-runs {
+    @apply bg-blue-600 text-white;
+  }
+  
+  .over-four {
+    @apply bg-green-600 text-white;
+  }
+  
+  .over-six {
+    @apply bg-purple-600 text-white;
+  }
+  
+  .over-wicket {
+    @apply bg-red-600 text-white;
+  }
+  
+  .over-wide, .over-noball {
+    @apply bg-yellow-500 text-white;
+  }
+  
+  .live-indicator {
+    @apply inline-block relative;
+  }
+  
+  .live-indicator::before {
+    content: "";
+    @apply absolute -left-3 top-1/2 -translate-y-1/2 w-2 h-2 bg-red-600 rounded-full animate-pulse;
+  }
+}
+
+@layer utilities {
+  .cricket-gradient {
+    @apply bg-gradient-to-r from-cricket-pitch to-cricket-boundary;
+  }
+  
+  .scoreboard-gradient {
+    @apply bg-gradient-to-r from-cricket-scoreboard to-primary-800;
+  }
+}
