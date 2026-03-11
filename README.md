@@ -1,62 +1,57 @@
-CricStat 🏏
+# CricStat 🏏
 
 CricStat is a cricket statistics analysis project designed to provide insights into player and match performance using structured cricket data. The project enables users to explore various statistical metrics, analyze player performance, and understand trends in cricket matches through a simple and organized interface.
 
-📌 Project Overview
+---
 
-Cricket generates a vast amount of statistical data from every match, including player scores, strike rates, bowling figures, and match outcomes. CricStat aims to organize this data and present meaningful insights that help users analyze player performances and match statistics efficiently.
+## 📌 Project Overview
+
+Cricket generates a vast amount of statistical data from every match, including player scores, strike rates, bowling figures, and match outcomes. **CricStat** aims to organize this data and present meaningful insights that help users analyze player performances and match statistics efficiently.
 
 This project focuses on collecting, processing, and analyzing cricket-related datasets to generate useful statistics such as batting averages, strike rates, bowling economy, and match summaries.
 
-🚀 Features
+---
 
-Player performance analysis
+## 🚀 Features
 
-Batting statistics (runs, averages, strike rates)
+- Player performance analysis  
+- Batting statistics (runs, averages, strike rates)  
+- Bowling statistics (wickets, economy rate, overs)  
+- Match summary statistics  
+- Data-driven insights from cricket datasets  
+- Structured and organized statistical outputs  
 
-Bowling statistics (wickets, economy rate, overs)
+---
 
-Match summary statistics
-
-Data-driven insights from cricket datasets
-
-Structured and organized statistical outputs
-
-
-📊 Example Insights
+## 📊 Example Insights
 
 The project can generate insights such as:
 
-Top run scorers in a tournament
+- Top run scorers in a tournament  
+- Player batting averages  
+- Most economical bowlers  
+- Match win statistics  
+- Performance comparisons between players  
 
-Player batting averages
+---
 
-Most economical bowlers
+## 🎯 Future Improvements
 
-Match win statistics
+- Interactive dashboards for cricket analytics  
+- Real-time match data integration using APIs  
+- Player comparison tools  
+- Web-based visualization platform  
+- Advanced predictive analytics for match outcomes  
 
-Performance comparisons between players
+---
 
-🎯 Future Improvements
+## 🤝 Contributing
 
-Interactive dashboards for cricket analytics
+Contributions are welcome! If you would like to improve this project:
 
-Real-time match data integration using APIs
+1. Fork the repository  
+2. Create a new branch  
+3. Commit your changes  
+4. Submit a pull request  
 
-Player comparison tools
-
-Web-based visualization platform
-
-Advanced predictive analytics for match outcomes
-
-🤝 Contributing
-
-Contributions are welcome! If you would like to improve the project:
-
-Fork the repository
-
-Create a new branch
-
-Commit your changes
-
-Submit a pull request
+---
